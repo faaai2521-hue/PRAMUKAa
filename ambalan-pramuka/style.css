@@ -1,0 +1,90 @@
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #5c4033;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 8px solid #5c4033;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 5px double #5c4033;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.header-text {
+  text-align: center;
+  flex: 1;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #5c4033;
+}
+
+.header-text h2 {
+  margin: 5px 0;
+  font-size: 20px;
+  color: #a0522d;
+}
+
+section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #d2b48c;
+  border: 2px solid #5c4033;
+  border-radius: 5px;
+}
+
+section h3 {
+  border-bottom: 2px solid #5c4033;
+  padding-bottom: 5px;
+}
+
+ul, ol {
+  margin: 10px 0 10px 30px;
+}
+
+.bagian {
+  margin-top: 15px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border: 3px solid #5c4033;
+}
